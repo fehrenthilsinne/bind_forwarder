@@ -14,5 +14,3 @@ RUN chmod o+x /sbin/entrypoint.sh
 EXPOSE 53/udp 53/tcp
 
 ENTRYPOINT ["/sbin/entrypoint.sh"]
-
-#CMD ["/usr/sbin/named", "-f"]
